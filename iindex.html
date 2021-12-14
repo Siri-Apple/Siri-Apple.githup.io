@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <title> โปรแกรมคำนวณราคาสินค้า </title>
+</head>
+
+
+<body>
+
+    <style>
+        body {
+            background-color: rgb(255, 224, 224)
+        }
+
+        #title {
+            color: rgb(255, 255, 255);
+            font-family: monospace;
+            text-align: center;
+            font-size: 35px;
+            background-color: rgb(119, 178, 226);
+            padding: 20px;
+            border-radius: 20px;
+        }
+        #blank {
+            width: 50px;
+        }
+        #Hi {
+            color: rgb(102, 77, 77);
+            font-family: monospace;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+
+    <h1 id="title">
+        โปรแกรมคำนวณราคาสินค้าที่ได้ส่วนลด
+    </h1>
+
+    <div style="text-align: center;">
+        <span id="Hi"> ราคาสินค้า </span>
+        <input id="f_price" type="number" name="ราคาสินค้า"
+            style="border-radius: 10px; background-color: rgb(255, 255, 255); width: 70px; font-size: 20px; text-align: center; ">
+        <br> <br> <br>
+    </div>
+
+    <div style="text-align: center;">
+        <span id="Hi"> เปอร์เซ็นต์ส่วนลด </span>
+        <input id="percent" type="number" name="ส่วนลด"
+            style="border-radius: 10px; background-color: rgb(255, 255, 255); width: 70px; font-size: 20px; text-align: center; ">
+        <br> <br> <br> <br>
+    </div>
+
+    <div style="background-color: rgb(255, 242, 242); width: 160px; padding: 30px; border-radius: 20px; text-align: center; margin-left: 650px;
+    ">
+        <button id="math_2" name="ราคาที่ต้องจ่าย"
+            style="background-color: rgb(230, 163, 163);  font-size: 20px; padding: 15px; border-radius: 15px; ">
+            ราคาที่ต้องจ่าย </button> <br> <br> <br>
+        <input id="the_result_2" style="background-color: rgb(255, 242, 242); width: 112px;
+        padding: 20px; font-size: 30px; border-radius: 15px;
+        "> <br> <br>
+    </div>
+    <div style=" background-color: rgb(255, 242, 242); width: 160px; padding: 30px; border-radius: 20px; text-align: center; margin-left: 360px; margin-top: -250px;
+    ">
+        <button id="math_1" name="ส่วนลดที่ได้รับ"
+            style="background-color: rgb(182, 219, 146);  font-size: 20px; padding: 15px; border-radius: 15px; width: 155px; ">
+            ส่วนลดที่ได้ </button> <br>
+        <br> <br>
+        <input id="the_result_1" style="background-color: rgb(255, 242, 242); width: 112px;
+        padding: 20px; font-size: 30px; border-radius: 15px;"> <br>
+    </div>
+
+    <script src="PJ1.js"></script>
+
+</body>
